@@ -52,8 +52,6 @@ html body footer a div p {
 }
 
 .carrucel-mod {
-  display: flex;
-  flex-wrap: wrap;
   padding-bottom: 3rem;
 }
 
