@@ -1,0 +1,35 @@
+//Card
+.conteiner-center{
+    @extend %conteiner-center;
+}
+.card-mod{
+    @extend %conteiner-center;
+    flex-direction: column;
+}
+.card-sombra:hover{
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.253);
+}
+.img-ir-libro{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3rem 0;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+.img-ir-libro:hover{
+    transform: scale(1.05);
+    transition: all 1s;
+}
+.ir-libro-p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $color-blanco; 
+}
+//Libro
+.card-libro-mod{
+    border: none;
+}

@@ -1,0 +1,32 @@
+//Tienda online
+.active-mod>.page-link, .page-link.active {
+    z-index: 3;
+    color: $color-blanco;
+    background-color: $color-negro;
+    border-color: $color-negro;
+}
+.paginacion{
+    color: $color-negro;
+}
+.paginacion:hover{
+    color: $color-grisoscuro;
+    font-weight: 600;
+}
+.paginacion-mod{
+    @extend %conteiner-center;
+    margin: 3rem;
+}
+
+//Tienda física
+.mapa{
+    max-width: 80%;
+    display: flex;
+    margin: 0 auto;
+    max-height: 300px;
+}
+.contenedor-tienda-fisica{
+    padding: 2rem;
+    gap: 1rem;
+    @extend %conteiner-center;
+    flex-direction: column;
+}

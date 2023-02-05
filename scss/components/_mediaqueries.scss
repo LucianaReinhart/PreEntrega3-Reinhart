@@ -1,0 +1,29 @@
+//Media queries
+@media screen and (max-width: 768px){
+    .navbar-mod{
+        padding: 2rem 0;
+    }
+    main, footer, nav, .btn-mod{
+        font-size: 1.7rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .form-input{
+        padding: 0.5rem;
+    }
+}
+@media screen and (min-width: 992px){
+    .nav-mod{
+        display: flex;
+        gap: 2rem;
+    }
+    .form-contacto{
+        min-width: 70%;
+        padding: 7rem;
+    }
+    .navbar-mod{
+        padding: 02rem;
+    }
+}
+

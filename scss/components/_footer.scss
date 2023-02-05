@@ -1,0 +1,47 @@
+//Footer
+.mi-btn{
+    background-color: $color-negro;
+    color: $color-blanco;
+    padding: 1rem 2rem;
+}
+.mi-btn-dark{
+    background-color: $color-negro;
+    color: $color-blanco;
+}
+.btn-ext{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.mi-btn:hover{
+    background-color: $color-grisoscuro;
+}
+.btn-mod{
+    padding: 0.5rem 1.5rem;
+    font-size: 1.8rem;
+    margin: 1rem;
+    border-radius: 0;
+}
+.nexsletter{
+    background-color: $color-naranja;
+    padding: 5rem;
+    text-align: center;
+}
+.footer-redes{
+    @extend %conteiner-center;
+    flex-direction: column;
+    padding: 3.5rem;
+}
+.icon-whatsapp{
+    position: fixed;
+    right: 2.5rem;
+    bottom: 2.5rem;
+    background-color: #69be57;
+    padding: 1.8rem;
+    border-radius: 50%;
+}
+.icon-whatsapp:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
