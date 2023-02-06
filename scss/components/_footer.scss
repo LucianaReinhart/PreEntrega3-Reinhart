@@ -1,12 +1,10 @@
 //Footer
 .mi-btn{
-    background-color: $color-negro;
-    color: $color-blanco;
+    @extend %btn-dark;
     padding: 1rem 2rem;
 }
 .mi-btn-dark{
-    background-color: $color-negro;
-    color: $color-blanco;
+    @extend %btn-dark;
 }
 .btn-ext{
     margin: 2rem;

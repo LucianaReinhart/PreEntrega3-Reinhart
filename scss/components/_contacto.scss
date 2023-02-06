@@ -3,8 +3,7 @@
     margin: 3rem;
 }
 .form-contacto{
-    display: flex;
-    flex-direction: column;
+    @extend %flex-column;
     gap: 1rem;
     padding: 4rem;
     background-color: $color-grisclaro;
@@ -14,8 +13,7 @@
 }
 .form-campo{
     padding: 0.5rem;
-    display: flex;
-    flex-direction: column;
+    @extend %flex-column;
 }
 .form-input{
     padding: 1rem;

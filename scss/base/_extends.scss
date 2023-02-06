@@ -3,8 +3,6 @@
     justify-content: center;
     align-items: center;
 }
-
-
 %conteiner-titulo{
     padding: 1.5rem;
     text-align: center;
@@ -12,4 +10,11 @@
     text-transform: uppercase;
     font-weight: 600;
 }
-
+%flex-column{
+    display: flex;
+    flex-direction: column;
+}
+%btn-dark{
+    background-color: $color-negro;
+    color: $color-blanco;
+}

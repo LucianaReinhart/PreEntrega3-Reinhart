@@ -10,8 +10,7 @@
     gap: 3rem;
 }
 .body-libro-mod{
-    display: flex;
-    flex-direction: column;
+    @extend %flex-column;
     align-items: center;
     gap: 2rem;
 }
